@@ -1,0 +1,23 @@
+{
+  "name": "adeo-technical-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoinezanardi/adeo-technical-test.git"
+  },
+  "author": "Antoine ZANARDI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antoinezanardi/adeo-technical-test/issues"
+  },
+  "homepage": "https://github.com/antoinezanardi/adeo-technical-test#readme",
+  "dependencies": {
+    "jest": "^29.3.1",
+    "ts-node": "^10.9.1"
+  }
+}

@@ -2,14 +2,39 @@ import { Country } from "../models/Country";
 
 const countries: Country[] = [
   {
-    name: "Uzuzozne",
+    name: "Sinnoh",
+    people: [],
+  },
+  {
+    name: "Hoenn",
     people: [
       {
-        name: "Lillie Abbott",
+        name: "Max",
+        animals: [],
+      },
+      {
+        name: "Flora",
         animals: [
-          {
-            name: "John Dory",
-          },
+          { name: "Tropius" },
+          { name: "Bekipan" },
+          { name: "Ludicolo" },
+          { name: "Braségali" },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Johto",
+    people: [
+      {
+        name: "Peter",
+        animals: [
+          { name: "Drattak" },
+          { name: "Léviator" },
+          { name: "Carchacrok" },
+          { name: "Altaria" },
+          { name: "Dracaufeu" },
+          { name: "Dracolosse" },
         ],
       },
     ],
@@ -20,17 +45,20 @@ const countries: Country[] = [
       {
         name: "Pierre",
         animals: [
-          { name: "Pichu" },
-          { name: "Pikachu" },
-          { name: "Salamèche" },
+          { name: "Onyx" },
+          { name: "Racaillou" },
+          { name: "Racaillou" },
         ],
       },
       {
         name: "Sacha",
         animals: [
           { name: "Pikachu" },
-          { name: "Onyx" },
-          { name: "Salamèche" },
+          { name: "Bulbizarre" },
+          { name: "Ronflex" },
+          { name: "Lokhlass" },
+          { name: "Carapuce" },
+          { name: "Dracaufeu" },
         ],
       },
     ],
